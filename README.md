@@ -84,7 +84,7 @@ Add the dependency.
 <dependency>
     <groupId>eu.dgs-development</groupId>
     <artifactId>easy-process-interaction</artifactId>
-    <version>v1.0.0</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
@@ -104,6 +104,6 @@ Add the dependency.
 
 ```text
 dependencies {
-    implementation 'eu.dgs-development:easy-process-interaction:v1.0.0'
+    implementation 'eu.dgs-development:easy-process-interaction:1.0.0'
 }
 ```
