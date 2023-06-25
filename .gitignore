@@ -1,0 +1,8 @@
+#IDE
+/.idea/
+/.settings/
+/target/
+/.classpath
+/.project
+/*.iml
+/TRIGGER_TESTS

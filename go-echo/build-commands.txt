@@ -1,0 +1,25 @@
+---------------------------
+Linux:
+---------------------------
+
+GOOS=windows GOARCH=amd64 go build -o bin/go-echo-amd64.exe main.go
+
+GOOS=darwin GOARCH=amd64 go build -o bin/go-echo-amd64-darwin main.go
+
+GOOS=linux GOARCH=amd64 go build -o bin/go-echo-amd64-linux main.go
+
+---------------------------
+Windows:
+---------------------------
+
+$env:GOOS = 'windows'
+$env:GOARCH = 'amd64'
+go build -o bin/go-echo-amd64.exe main.go
+
+$env:GOOS = 'darwin'
+$env:GOARCH = 'amd64'
+go build -o bin/go-echo-amd64-darwin main.go
+
+$env:GOOS = 'linux'
+$env:GOARCH = 'amd64'
+go build -o bin/go-echo-amd64-linux main.go
